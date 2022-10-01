@@ -1,0 +1,8 @@
+moar ideas to check:
+
+- edit distance / consensus sequence
+- heuristics about loose matches (score?)
+- entropy for content (rounded)
+- nestedness level
+- number of different script src used
+- ... send PR?
