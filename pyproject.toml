@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cf3"
-version = "0.1.0"
+version = "0.1.1"
 description = "Calculate the CF3 hashes for an html page"
 authors = ["Ain Ghazal <ainghazal42@gmail.com>"]
 license = "Public Domain"
