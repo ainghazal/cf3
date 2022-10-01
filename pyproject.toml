@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cf3"
+version = "0.1.0"
+description = "Calculate the CF3 hashes for an html page"
+authors = ["Ain Ghazal <ainghazal42@gmail.com>"]
+license = "Public Domain"
+readme = "README.md"
+packages = [{include = "cf3"}]
+repository = "https://github.com/ainghazal/cf3"
+keywords = ["censorship", "fingerprint"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.1"
+
+[tool.poetry.scripts]
+cf3 = "cf3.cf3:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

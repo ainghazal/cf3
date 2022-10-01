@@ -25,10 +25,11 @@ script: 2
 head size: 2048
 body size: 1024
 total size: 4096
-tag_vector: html,head,title,link,style,meta,meta,body,div,img,div,img,div,button,div,div,h1,h2,p,br,ul,li,a,img,br,br,p,a,div,div,p,script,script
+tag vector summary: 88
+tag vector: html,head,title,link,style,meta,meta,body,div,img,div,img,div,button,div,div,h1,h2,p,br,ul,li,a,img,br,br,p,a,div,div,p,script,script
 
-CF3: 17-2-2-33-2048-1024-4096
-md5: 66da6861393361c398550e4677b716f6
+CF3: 17-2-2-33-88-2048-1024-4096
+md5: 12c27a55433b1813c02a8a92dd4b3bff
 ```
 
 ## dynamic content
