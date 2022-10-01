@@ -49,20 +49,22 @@ md5: 12c27a55433b1813c02a8a92dd4b3bff
 The algorithm tries to be invariant under pages that share a well-defined structure but for which dynamic content, js nonces and other quirks result in highly variable content. YMMV.
 
 ```
-❯ mkdir tmp && cd tmp
-❯ for i in {1..10}; do curl -L --silent https://www.youtube.com/ > yt$i.html; done
-❯ for f in *; do ../cf3 $f hash; done
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
-993522ccea4b8e11857ff4bb1917a77d
+❯ for i in {1..10}; do curl -L --silent https://youtube.com | cf3; done
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
+9a0edf442a37fbb0fb6e28a122d33e56
 ```
+
+## Notes
+
+Under development! The fingerprinting algorithm might change.
 
 # License
 
